@@ -1,0 +1,16 @@
+Given a binary tree, print level order traversal in a way that nodes of all levels are printed in separate lines.
+
+For example consider the following tree:
+          1
+       /     \
+      2       3
+    /   \       \
+   4     5       6
+        /  \     /
+       7    8   9
+
+Output for above tree should be
+1
+2 3
+4 5 6
+7 8 9

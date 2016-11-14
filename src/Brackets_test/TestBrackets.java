@@ -10,7 +10,7 @@ public class TestBrackets {
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Eenter the string : ");
-		String str = scanner.next(); //System.console().readLine();
+		String str = scanner.next();
 		
 		Stack<Character> stck = new Stack<Character>();
 		
