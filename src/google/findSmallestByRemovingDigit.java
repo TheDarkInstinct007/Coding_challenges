@@ -24,3 +24,12 @@ public class findSmallestByRemovingDigit {
 		return( strnum.charAt(strnum.length()-1) > strnum.charAt(strnum.length()-2) ? Integer.parseInt(strnum.deleteCharAt(strnum.length()-2).toString()) : Integer.parseInt(strnum.deleteCharAt(strnum.length()-1).toString()));
 	}
 }
+
+43210
+4210
+
+434269
+44269
+43469
+43469
+43429
