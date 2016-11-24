@@ -12,7 +12,7 @@ public class findLagestByRemovingDigit {
 		scaner.close();
 		
 		boolean removed = false;
-		StringBuilder strnum= new StringBuilder(String.valueOf(i)); 
+		StringBuilder strnum= new StringBuilder(String.valueOf(i));
 
 		for(int j=1; j<strnum.length()-1; j++)
 		{
