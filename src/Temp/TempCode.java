@@ -15,21 +15,16 @@ public class TempCode {
 
 	public static void main(String[] args) {
 			
-		LinkedList<Integer> t = new LinkedList<Integer>();
-		t.add(0);
-		t.add(1);
-		changeValue(t);
-		t.add(4);
-		
-		for(Integer i : t)
-			System.out.println(i);
-		
-
+			Integer[] i = new Integer[1];
+			i[0]=2;
+			System.out.println(i[0]);
+			changeValue(i[0]);
+			System.out.println(i[0]);		
 	}
 	
-	public static void changeValue(LinkedList<Integer> x)
+	public static void changeValue(Integer x)
 	{
-		x.add(5);
+		x=5;
 	}
 
 }
